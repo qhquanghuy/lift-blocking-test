@@ -6,9 +6,9 @@ https://github.com/philipgloyne/apachebench-for-multi-url
 
 ## Endpoint
 
-- /blocking: simulate db blocking operation
-- /lift-blocking: lift the blocking operation to Cache Thread Pool
-- /normal: a normal endpoint
+- [/blocking](https://github.com/qhquanghuy/lift-blocking-test/blob/main/app/controllers/HomeController.scala#L42): simulate db blocking operation block Play thread
+- [/lift-blocking](https://github.com/qhquanghuy/lift-blocking-test/blob/main/app/controllers/HomeController.scala#L48): lift the blocking operation to Cache Thread Pool
+- [/normal](https://github.com/qhquanghuy/lift-blocking-test/blob/main/app/controllers/HomeController.scala#L48): a normal endpoint
 
 ## TEST
 
